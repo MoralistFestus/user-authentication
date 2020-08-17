@@ -1,23 +1,44 @@
 
-# Project Structure
+# User Authentication System
+A simple user authentication system with input validation and Email verification feature. Made with PHP and SQL.
+User authentication is a standard security mechanism, It allows identified users to access any digital application or website. It strictly prevents unidentified users from accessing web or mobile application
 
-\-- php-user-authentication <br>
-     |-- config <br>
-        - |--- db.php <br>
-   |-- controllers <br>
-       - |--- login.php <br>
-       - |--- register.php <br>
-       - |--- user_activation.php <br>
-  |-- css <br>
-     - |--- style.css <br>
-  |-- lib <br>
-     |--- 3rd party plugins <br>
-  - |-- dashboard.php <br>
-  - |-- index.php <br>
- - |-- logout.php <br>
-  - |-- signup.php <br>
- - |-- user_verification.php 
- 
+
+## Features
+Features include:
+- Signin and Signup forms with Bootstrap 4
+- MySQL database connection with PHP 7 project
+- User data management in session
+- PHP server-side validation
+- Handling error messages
+- Sending user verification email using SwiftMailer plugin
+- Securing a password with the password hash mechanism
+- Password verification
+- URL redirection based on user’s logged-in state
+- Display logged-in user’s data using PHP 7 session
+- Logout and destroying the session
+
+## File structure
+How project is been structured:
+- `config/db.php`: Contains function for database connection
+- `controllers/login.php`: Contains function for login authentication
+- `controllers/register.php`: Contains function for Signup authentication
+- `controllers/user_activation.php`: Contains function for user email authentication
+- `css/style.css`: Minimal style
+- `css/bootstrap.min.css`: Bootstrap library styles
+- `js/bootstrap.min.js`: Bootstrap JS lib
+- `js/jquery.min.js`: Jquery JS lib
+- `lib`: Contains 3rd party library
+- `dashboard.php`: Display user info after verification
+- `db.sql`: SQL command
+- `index.php`: Login form page
+- `logout.php`: User logout command
+- `signup.php`: Sign up form page
+- `user_verification.php`: Display user account was successfully verified. 
+
+
+
+
 
 ## 3rd party library
 SwiftMailer PHP library was used here in this project for user email verification after
