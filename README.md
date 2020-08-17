@@ -1,22 +1,22 @@
 
 # Project Structure
 
-\-- php-user-authentication
-  |-- config
-      |--- db.php
-  |-- controllers
-      |--- login.php
-      |--- register.php
-      |--- user_activation.php
-  |-- css
-      |--- style.css
-  |-- lib
-      |--- 3rd party plugins
-  |-- dashboard.php
-  |-- index.php
-  |-- logout.php
-  |-- signup.php
-  |-- user_verification.php
+\-- php-user-authentication <br>
+     |-- config <br>
+        - |--- db.php <br>
+   |-- controllers <br>
+       - |--- login.php <br>
+       - |--- register.php <br>
+       - |--- user_activation.php <br>
+  |-- css <br>
+     - |--- style.css <br>
+  |-- lib <br>
+     |--- 3rd party plugins <br>
+  - |-- dashboard.php <br>
+  - |-- index.php <br>
+ - |-- logout.php <br>
+  - |-- signup.php <br>
+ - |-- user_verification.php 
  
 
 ## 3rd party library
